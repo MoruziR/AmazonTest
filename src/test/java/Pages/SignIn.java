@@ -39,7 +39,7 @@ public class SignIn {
     }
     public static void  login_password() throws InterruptedException, IOException {
         Thread.sleep(2000);
-        driver.findElement(By.xpath(login_password_xpath)).sendKeys("Dudezorul1*");
+        driver.findElement(By.xpath(login_password_xpath)).sendKeys("Blabla);
         test.log(Status.PASS, "Test Passed for entering the keys");
         test.log(Status.PASS,test.addScreenCaptureFromPath(capture(driver))+ "Test Passed");
     }
